@@ -30,19 +30,31 @@
 
 ![ut](https://user-images.githubusercontent.com/77962884/108625197-ea4b9f00-748c-11eb-9941-3157d625a9f9.PNG)
 
-![111](https://user-images.githubusercontent.com/77962884/108625474-7f02cc80-748e-11eb-866d-01aa859e61c4.PNG)
+userRegisterAction.jsp : 회원가입 처리, 사용자 정보를 데이터베이스에 등록한 이후 자동으로 사용자의 이메일로 이메일을 전송하고 인증을 기다린다.
+
+emailSendAction.jsp : 이메일 인증 메시지를 이메일을 통해 전송한다.
+
+emailCheckAction.jsp : 사용자가 이메일 인증을 하게 되면 그에 대한 정보를 처리한다.
 
 * 로그인 및 로그아웃 구현
 
-![222](https://user-images.githubusercontent.com/77962884/108630733-a1561380-74a9-11eb-815b-20c18e99e446.PNG)
+userLoginAction.jsp : 실질적인 사용자의 로그인을 처리한다.
+
+userLogout.jsp : 사용자의 로그인 세션을 파기한다.
+
+emailSendConfirm.jsp : 이메일 인증이 되지 않은 사용자는 index 페이지 접속 불가하다.
 
 * 평가등록 및 신고 구현
 
-![333](https://user-images.githubusercontent.com/77962884/108630860-643e5100-74aa-11eb-8d09-e166d55070ab.PNG)
+reportAction.jsp : 사용자가 신고서를 작성하면 관리자가 메일로 받는다.
+
+evaluationRegisterAction.jsp : 사용자가 평가를 등록하게 되면, 그 평가등록을 처리한다.
 
 * 추천 및 삭제 기능 구현
 
-![444](https://user-images.githubusercontent.com/77962884/108632354-c77fb180-74b1-11eb-9b1e-adf87cf1cfac.PNG)
+deleteAction.jsp : 강의 평가 글 삭제
+
+likeAction.jsp : 강의 평가 글 
 
 * XSS 시큐어 코딩
   * 게시글이 등록될 때 모든 꺾쇠가 치환되어서 자바스크립트 구문 삽입이 어려워진다.
@@ -53,7 +65,7 @@
 
 1. 로그인 하기
 
-로그인을 해야 강의평가 진행 가능하다.
+로그인을 해야 강의평가 진행이 가능하다.
 
 ![로그인](https://user-images.githubusercontent.com/77962884/108631127-dbc0b000-74ab-11eb-9ad1-228e21cf3fa6.PNG)
 
