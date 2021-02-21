@@ -33,11 +33,9 @@
 
 * 로그인 및 로그아웃 구현
 
+![222](https://user-images.githubusercontent.com/77962884/108630733-a1561380-74a9-11eb-815b-20c18e99e446.PNG)
 
-
-  
-  
- 
+* 평가등록 및 신고 구현
 
 
 
