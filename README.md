@@ -42,11 +42,12 @@
 
 * 추천 및 삭제 기능 구현
 
-![444](https://user-images.githubusercontent.com/77962884/108630994-15dd8200-74ab-11eb-8c2a-f74cff22c588.PNG)
+![444](https://user-images.githubusercontent.com/77962884/108632354-c77fb180-74b1-11eb-9b1e-adf87cf1cfac.PNG)
 
 * XSS 시큐어 코딩
   * 게시글이 등록될 때 모든 꺾쇠가 치환되어서 자바스크립트 구문 삽입이 어려워진다.
-  * .replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll("\r\n", "<br>") 추가
+  * .replaceAll("<", "&lt;").replaceAll(">", "&gt;")
+    .replaceAll("\r\n", "<br>") 추가
   
 ## 세부기능 설명
 
