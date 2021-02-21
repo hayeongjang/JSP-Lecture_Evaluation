@@ -18,8 +18,10 @@
   * 추천 테이블 ( Like Table)
 
 * 데이터 모델링
+   
+   * DAO - 데이터베이스와 실질적으로 통신
    * DTO - 데이터베이스 테이블과 거의 1:1 대응되어 개별 데이터 원소를 보관하기 위해 사용
-  * DAO - 데이터베이스와 실질적으로 통신
+   
 
 ![데이터모델링](https://user-images.githubusercontent.com/77962884/108624692-c9ce1580-7489-11eb-9ce4-ef1662161a29.PNG)
   
@@ -28,6 +30,9 @@
 ![ut](https://user-images.githubusercontent.com/77962884/108625197-ea4b9f00-748c-11eb-9941-3157d625a9f9.PNG)
 
 ![111](https://user-images.githubusercontent.com/77962884/108625474-7f02cc80-748e-11eb-866d-01aa859e61c4.PNG)
+
+* 로그인 및 로그아웃 구현
+
 
 
   
