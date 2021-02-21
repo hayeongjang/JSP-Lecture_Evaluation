@@ -27,34 +27,24 @@
 ![데이터모델링](https://user-images.githubusercontent.com/77962884/108624692-c9ce1580-7489-11eb-9ce4-ef1662161a29.PNG)
   
 * 회원가입 및 이메일 전송
+   * userRegisterAction.jsp : 회원가입 처리, 사용자 정보를 데이터베이스에 등록한 이후 자동으로 사용자의 이메일로 이메일을 전송하고 인증을 기다린다.
+   * emailSendAction.jsp : 이메일 인증 메시지를 이메일을 통해 전송한다.
+   * emailCheckAction.jsp : 사용자가 이메일 인증을 하게 되면 그에 대한 정보를 처리한다.
 
 ![ut](https://user-images.githubusercontent.com/77962884/108625197-ea4b9f00-748c-11eb-9941-3157d625a9f9.PNG)
-
-userRegisterAction.jsp : 회원가입 처리, 사용자 정보를 데이터베이스에 등록한 이후 자동으로 사용자의 이메일로 이메일을 전송하고 인증을 기다린다.
-
-emailSendAction.jsp : 이메일 인증 메시지를 이메일을 통해 전송한다.
-
-emailCheckAction.jsp : 사용자가 이메일 인증을 하게 되면 그에 대한 정보를 처리한다.
-
+  
 * 로그인 및 로그아웃 구현
-
-userLoginAction.jsp : 실질적인 사용자의 로그인을 처리한다.
-
-userLogout.jsp : 사용자의 로그인 세션을 파기한다.
-
-emailSendConfirm.jsp : 이메일 인증이 되지 않은 사용자는 index 페이지 접속 불가하다.
+   * userLoginAction.jsp : 실질적인 사용자의 로그인을 처리한다.
+   * userLogout.jsp : 사용자의 로그인 세션을 파기한다.
+   * emailSendConfirm.jsp : 이메일 인증이 되지 않은 사용자는 index 페이지 접속 불가하다.
 
 * 평가등록 및 신고 구현
-
-reportAction.jsp : 사용자가 신고서를 작성하면 관리자가 메일로 받는다.
-
-evaluationRegisterAction.jsp : 사용자가 평가를 등록하게 되면, 그 평가등록을 처리한다.
+   * reportAction.jsp : 사용자가 신고서를 작성하면 관리자가 메일로 받는다.
+   * evaluationRegisterAction.jsp : 사용자가 평가를 등록하게 되면, 그 평가등록을 처리한다.
 
 * 추천 및 삭제 기능 구현
-
-deleteAction.jsp : 강의 평가 글 삭제
-
-likeAction.jsp : 강의 평가 글 
+   * deleteAction.jsp : 강의 평가 글 삭제
+   * likeAction.jsp : 강의 평가 글 
 
 * XSS 시큐어 코딩
   * 게시글이 등록될 때 모든 꺾쇠가 치환되어서 자바스크립트 구문 삽입이 어려워진다.
