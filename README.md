@@ -22,7 +22,9 @@
   ![데이터모델링](https://user-images.githubusercontent.com/77962884/108624692-c9ce1580-7489-11eb-9ce4-ef1662161a29.PNG)
   
 * 회원가입 및 이메일 전송
-  *
+![ut](https://user-images.githubusercontent.com/77962884/108624760-4a8d1180-748a-11eb-84d8-2f3037eb053e.PNG)
+
+
   
   
  
