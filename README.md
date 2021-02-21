@@ -1,7 +1,7 @@
 # JSP-Lecture_Evaluation
 ## 프로젝트 핵심
 1. 유튜브 강의를 통해 클론코드 형식으로 제작하였다.
-2. 개발 셋팅, 코드 오류 해결 능력, 프론트/ 백엔드 영역을 배우기 위해 진행하였다.
+2. 개발 세팅, 코드 오류 해결 능력, 프론트/ 백엔드 영역을 배우기 위해 진행하였다.
 3. 웹 서버 개발의 전반적인 과정을 알 수 있는 시간이었다!!
 ## 개발도구
 1. 웹 브라우저 : Chrome
@@ -20,13 +20,13 @@
 
 * 데이터 모델링
    
-   * DAO - 데이터베이스와 실질적으로 통신
-   * DTO - 데이터베이스 테이블과 거의 1:1 대응되어 개별 데이터 원소를 보관하기 위해 사용
+   * DAO - 데이터베이스와 실질적으로 통신한다.
+   * DTO - 데이터베이스 테이블과 거의 1:1 대응되어 개별 데이터 원소를 보관하기 위해 사용한다.
    
-
 ![데이터모델링](https://user-images.githubusercontent.com/77962884/108624692-c9ce1580-7489-11eb-9ce4-ef1662161a29.PNG)
   
 * 회원가입 및 이메일 전송
+
    * userRegisterAction.jsp : 회원가입 처리, 사용자 정보를 데이터베이스에 등록한 이후 자동으로 사용자의 이메일로 이메일을 전송하고 인증을 기다린다.
    * emailSendAction.jsp : 이메일 인증 메시지를 이메일을 통해 전송한다.
    * emailCheckAction.jsp : 사용자가 이메일 인증을 하게 되면 그에 대한 정보를 처리한다.
@@ -36,7 +36,7 @@
 * 로그인 및 로그아웃 구현
    * userLoginAction.jsp : 실질적인 사용자의 로그인을 처리한다.
    * userLogout.jsp : 사용자의 로그인 세션을 파기한다.
-   * emailSendConfirm.jsp : 이메일 인증이 되지 않은 사용자는 index 페이지 접속 불가하다.
+   * emailSendConfirm.jsp : 이메일 인증이 되지 않은 사용자는 index 페이지에 접속 불가하다.
 
 * 평가등록 및 신고 구현
    * reportAction.jsp : 사용자가 신고서를 작성하면 관리자가 메일로 받는다.
@@ -44,7 +44,7 @@
 
 * 추천 및 삭제 기능 구현
    * deleteAction.jsp : 강의 평가 글 삭제
-   * likeAction.jsp : 강의 평가 글 
+   * likeAction.jsp : 강의 평가 글 추천
 
 * XSS 시큐어 코딩
   * 게시글이 등록될 때 모든 꺾쇠가 치환되어서 자바스크립트 구문 삽입이 어려워진다.
@@ -65,7 +65,7 @@
 
 ![3](https://user-images.githubusercontent.com/77962884/108631163-ec712600-74ab-11eb-9ea2-ad63bc62090d.PNG)
 
-데이터베이스에서 회원가입 된 정보를 확인할 수 있다.
+데이터베이스에서 회원가입된 정보를 확인할 수 있다.
 
 ![5](https://user-images.githubusercontent.com/77962884/108631167-ed09bc80-74ab-11eb-9f9d-a07887e89150.PNG)
 ![4](https://user-images.githubusercontent.com/77962884/108631165-ec712600-74ab-11eb-9150-532d359f6ec6.PNG)
