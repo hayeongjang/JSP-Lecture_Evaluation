@@ -46,7 +46,7 @@
 
 * XSS 시큐어 코딩
   * 게시글이 등록될 때 모든 꺾쇠가 치환되어서 자바스크립트 구문 삽입이 어려워진다.
-  .replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll("\r\n", "<br>") 추가
+  * .replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll("\r\n", "<br>") 추가
   
 ## 세부기능 설명
 
@@ -90,6 +90,8 @@
 
 4. 신고하기
 
+관리자에게 신고가 접수된 것을 확인할 수 있다.
+
 ![12](https://user-images.githubusercontent.com/77962884/108631144-e9763580-74ab-11eb-8f89-df1bfdd4d225.PNG)
 ![13](https://user-images.githubusercontent.com/77962884/108631147-e9763580-74ab-11eb-80eb-446a9b8c1190.PNG)
 
@@ -112,6 +114,8 @@
 ![18](https://user-images.githubusercontent.com/77962884/108631157-eb3ff900-74ab-11eb-80bf-9be37bce00a1.png)
 
 ## 마치며
+
+![footer](https://user-images.githubusercontent.com/77962884/108631889-8be3e800-74af-11eb-921f-a9846e75a8b6.PNG)
 
 
 
