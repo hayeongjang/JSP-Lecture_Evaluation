@@ -16,7 +16,7 @@
   * 데이터베이스 생성 (LectureEvaluation)
   * 평가 테이블 (Evaluation Table)
   * 회원 테이블 (User Table)
-  * 추천 테이블 (Like Table)
+  * 추천 테이블 (Likey Table)
 
 * 데이터 모델링
    
