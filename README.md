@@ -5,7 +5,7 @@
 3. 웹 서버 개발의 전반적인 과정을 알 수 있는 시간이었다!!
 ## 개발도구
 1. 웹 브라우저 : Chrome
-2. 개발환경 : Eclipse
+2. 개발환경 : JDK, Eclipse
 3. 데이터베이스 : MySQL
 4. 웹 컨테이너 : Tomcat
 5. 프레임워크 : bootstrap
@@ -13,10 +13,10 @@
 
 ## 개발과정
 * 데이터베이스 구축
-  * 데이터베이스 생성 ( LectureEvaluation)
-  * 평가 테이블 ( Evaluation Table)
-  * 회원 테이블 ( User Table)
-  * 추천 테이블 ( Like Table)
+  * 데이터베이스 생성 (LectureEvaluation)
+  * 평가 테이블 (Evaluation Table)
+  * 회원 테이블 (User Table)
+  * 추천 테이블 (Like Table)
 
 * 데이터 모델링
    
@@ -39,13 +39,13 @@
    * emailSendConfirm.jsp : 이메일 인증이 되지 않은 사용자는 index 페이지에 접속 불가하다.
 
 * 평가등록 및 신고 구현
-   * reportAction.jsp : 사용자가 신고서를 작성하면 관리자가 메일로 받는다.
    * evaluationRegisterAction.jsp : 사용자가 평가를 등록하게 되면, 그 평가등록을 처리한다.
+   * reportAction.jsp : 사용자가 신고서를 작성하면 관리자가 메일로 받는다.
 
 * 추천 및 삭제 기능 구현
-   * deleteAction.jsp : 강의 평가 글 삭제
    * likeAction.jsp : 강의 평가 글 추천
-
+   * deleteAction.jsp : 강의 평가 글 삭제
+   
 * XSS 시큐어 코딩
   * 게시글이 등록될 때 모든 꺾쇠가 치환되어서 자바스크립트 구문 삽입이 어려워진다.
   * .replaceAll("<", "&lt;").replaceAll(">", "&gt;")
